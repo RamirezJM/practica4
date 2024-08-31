@@ -138,14 +138,14 @@ main .contenedor-personajes {
 }
 
 .contenedor-personajes div {
-  margin-left: 4%;
+  margin: auto;
   text-align: center;
   border: solid 1px;
   width: 180px;
   height: 140px;
   border-radius: 20px;
   line-height: 25px;
-  margin-top: 1.5%;
+  flex-grow: 1;
 }
 
 .contenedor-personajes h6 {
