@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/img/jedi-solid.svg" type="image/x-icon">
+  <title>Star Wars Módulo IV</title>
+  <link href="assets/css/style1.css" id="style1" rel="stylesheet">
+
+</head>                                 <!-- ---------INTRO---------- -->
+
+<body>
+
+  <div id="introPagina">
+  
+    <audio controls autoplay>
+      <source src="assets/audio/intro.mp3" id="audioIntro" type="audio/mp3">
+    </audio>
+    
+    <section class="intro">
+      Hace mucho tiempo, en una galaxia<br>muy, muy lejana....
+    </section>
+    
+    <section class="logo">
+      <img src="assets/img/logo.png" alt="Logo star wars">
+
+    </section>
+    <div id="scroller">
+      <div id="content">
+        <h3 id="titulo">Módulo IV</h3>
+        <h1 id="subtitulo">Javascript Avanzado</h1>
+        <br>
+        <p>Son tiempos difíciles para los alumnos del Bootcamp. Luego de batallar contra HTML5, CSS3, Bootstrap y ser
+          perseguidos por Tropas Imperiales, deben enfrentar el arma más extrema del Imperio, JAVASCRIPT, un lenguaje
+          con suficiente potencia para destruir un planeta entero.</p>
+        <p>Obligados a dejar sus bases y perseguidos por toda la galaxia, un grupo de alumnos rebeldes ha establecido
+          una nueva base secreta en el remoto y congelado Planeta Hoth, desde donde se conectan a sus clases a través de
+          Google Teams.</p>
+        <p>Ahora el Imperio Galáctico, gobernado por el Profesor Cesar y su gata Leia, ha ordenado realizar la práctica
+          de consolidación consumiendo la API de Star Wars, usando el método fetch() y mostrando la altura y peso de
+          algunos personajes.</p>
+        <p>Luego de enfrentar a enemigos poderosos y batallas formidables contra los agentes imperiales, José Ramírez se
+          dirigirá en su nave al planeta Dagobah para continuar su entrenamiento con Yoda, un antiguo Maestro
+          Javascript, y así convertirse en Caballero Desarrollador, permitiéndole restaurar la paz y la justicia en
+          la galaxia....</p>
+      </div>
+    </div>
+  </div>                                   <!-- -------CONTENIDO API--------- -->
+
+  <div id="contenidoAPI">
+
+    <header>
+      <h1>Dimensiones de la vida real de los personajes de Star Wars.</h1>
+    </header>
+
+    <aside>
+                                    <!-- bloques laterales que contienen el botón que muestra y esconde los contenedores de personajes -->
+      <h3>Personajes 1-5</h3>
+      <div class="aside-personaje" id="personajes1">
+        <i class="fa-regular fa-circle-dot fa-4x" id="boton1"></i>
+        <div id="empunadura1"></div>
+        <div id="empunadura2"></div>
+        <div id="empunadura3"></div>
+        <div id="frente"></div>
+      </div>
+
+      <h3>Personajes 6-10</h3>
+      <div class="aside-personaje" id="personajes2">
+        <i class="fa-regular fa-circle-dot fa-4x" id="boton2"></i>
+        <div id="empunadura1"></div>
+        <div id="empunadura2"></div>
+        <div id="empunadura3"></div>
+        <div id="frente"></div>
+      </div>
+
+      <h3>Personajes 11-15</h3>
+      <div class="aside-personaje" id="personajes3">
+        <i class="fa-regular fa-circle-dot fa-4x" id="boton3"></i>
+        <div id="empunadura1"></div>
+        <div id="empunadura2"></div>
+        <div id="empunadura3"></div>
+        <div id="frente"></div>
+      </div>
+
+    </aside>
+
+    <main>
+
+      <div class="contenedor-personajes" id="personajes1-5"></div>
+      <div class="contenedor-personajes" id="personajes6-10"></div> <!-- contenedores de personajes -->
+      <div class="contenedor-personajes" id="personajes11-15"></div>
+
+    </main>
+
+
+    <script src="https://kit.fontawesome.com/3db288ecf2.js" crossorigin="anonymous"></script>
+
+    <script src="assets/js/main.js"></script>
+  </div>
+
+  <script src="assets/js/intro.js"></script>
+</body>
+
+</html>
